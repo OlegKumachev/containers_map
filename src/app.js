@@ -1,16 +1,16 @@
-// export default class ErrorRepository {
-//     constructor(){
-//         this.errorMap = new Map
-//     };
+export default class ErrorRepository {
+    constructor(){
+        this.errorMap = new Map
+    };
 
-//     addError(code, description) {
-//         this.errorMap.set(code, description);
-//     };
+    addError(code, description) {
+        this.errorMap.set(code, description);
+    };
 
-//     translate(code) {
-//         const description = this.errorMap.get(code);
+    translate(code) {
+        const description = this.errorMap.get(code);
 
-//         return description !== undefined ? description : 'Unknown error';
-//     }
+        return description !== undefined ? description : 'Unknown error';
+    }
 
-//     }
+    }
