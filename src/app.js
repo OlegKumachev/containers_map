@@ -11,6 +11,5 @@ export default class ErrorRepository {
         const description = this.errorMap.get(code);
 
         return description !== undefined ? description : 'Unknown error';
-    }
-
-    }
+    };
+    };
